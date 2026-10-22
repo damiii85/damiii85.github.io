@@ -1,50 +1,8 @@
-/* 학습 목표
-   - 앞에서 배운 Media Query 를 내 페이지에 적용한 뒤 GitHub Pages 로 배포할 수 있다.
-   - 배포한 주소를 스마트폰으로 열어 반응형이 동작하는지 확인할 수 있다.
-   실습 TODO : 1개 */
-
-body {
-  font-family: "Malgun Gothic", sans-serif;
-  margin: 0;
-  color: #24292f;
-}
-
-header {
-  padding: 20px 40px;
-  background-color: #dfe7f5;
-}
-
-.logo {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.hero {
-  padding: 60px 40px;
-  background-color: #f6f8fa;
-}
-
-.cards {
-  display: flex;
-  /* 한 줄에 다 안 들어가면 다음 줄로 넘김 */
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 40px;
-}
-
-.card {
-  /* 기본(모바일): 카드 하나가 한 줄 전체 */
-  width: 100%;
-  /* 테두리(border)까지 width 안에 포함 */
-  box-sizing: border-box;
-  padding: 40px 0;
-  text-align: center;
-  border: 2px solid #d6d8dd;
-  border-radius: 12px;
-}
-
-/* [실습 포인트/힌트]
-   - 지금은 PC 에서도 카드가 세로로 1개씩 쌓임
-   - 480px 이상에서 한 줄에 3개가 되도록 .card 의 width 를 바꾸기 (3개 + 간격 2개 => 30%)
-   - Media Query 실습 파일(01_media_query.css)의 @media 블록 모양 참고 */
-/* TODO 1: @media (min-width: 480px) 블록 작성 */
+﻿@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;650;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap');
+:root{color-scheme:light dark;--bg:#fff;--surface:#f5f7fb;--ink:#15243e;--muted:#67758b;--line:#e6ebf2;--blue:#2862dc;--tint:#edf3ff;--sidebar:#fafbfe}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans','Noto Sans KR',sans-serif;font-size:14px;line-height:1.8;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}a:hover{color:var(--blue)}a:focus-visible{outline:3px solid var(--blue);outline-offset:5px}::selection{background:#bfd5ff;color:#15243e}.skip{position:absolute;top:-80px;left:20px;z-index:5;padding:10px;background:var(--bg)}.skip:focus{top:10px}.layout{max-width:1440px;margin:auto;display:grid;grid-template-columns:260px minmax(0,1fr)}.sidebar{position:sticky;top:0;height:100vh;min-height:680px;padding:30px 34px;background:var(--sidebar);border-right:1px solid var(--line);display:flex;flex-direction:column}.wordmark{font-size:35px;line-height:1;font-weight:700;letter-spacing:-3px}.wordmark span,.identity h2 span{color:var(--blue)}.identity{margin-top:55px}.avatar{height:76px;width:76px;border-radius:24px;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-size:36px;font-weight:600}.identity h2{font-size:25px;letter-spacing:-1px;margin:17px 0 4px}.identity p{color:var(--muted);font-size:12px;line-height:1.7;margin:0 0 17px}.cohort{display:inline-block;font-size:10px;letter-spacing:1px;border:1px solid var(--line);border-radius:5px;padding:3px 9px;color:var(--muted)}nav{display:grid;gap:3px;margin-top:36px}nav a{font-size:12px;padding:9px 0;display:flex;justify-content:space-between}nav small{font-size:10px;color:var(--muted)}.github{font-size:12px;margin-top:30px}.sidebar-note{margin-top:auto;color:var(--muted);font-size:10px;line-height:1.7;padding-top:25px}main{min-width:0;padding:0 65px}.topbar{height:80px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);font-size:9px;letter-spacing:1.7px;color:var(--muted)}.status{letter-spacing:0;font-size:10px;display:flex;align-items:center;gap:7px}.status i{width:6px;height:6px;border-radius:50%;background:#4b9482}.hero{padding:66px 0 24px;border:0;background:radial-gradient(ellipse at 93% 35%,var(--tint),transparent 65%)}.eyebrow{font-size:10px;letter-spacing:2px;font-weight:600;margin:0 0 24px;color:var(--blue)}h1{font-size:clamp(42px,5.1vw,72px);line-height:1.09;font-weight:650;letter-spacing:-3.5px;margin:0 0 27px}h1 span{color:var(--blue)}.hero .description{font-size:15px;line-height:1.95;margin-bottom:27px}.button{display:inline-flex;gap:32px;align-items:center;background:var(--ink);color:var(--bg);font-size:11px;font-weight:500;padding:12px 18px;border-radius:5px}.button:hover{background:var(--blue);color:white}.hero-bottom{display:flex;justify-content:space-between;align-items:flex-end;margin-top:52px;font-size:9px;color:var(--muted);line-height:1.7}section{border-top:1px solid var(--line);padding:34px 0 44px}.heading{display:flex;align-items:center;gap:12px;margin-bottom:28px}.heading>span{font-size:10px;color:var(--blue);font-weight:600}.heading h2{font-size:18px;letter-spacing:-.5px;margin:0;font-weight:600}.heading>small{margin-left:auto;font-size:10px;color:var(--muted)}.statement{font-size:25px;line-height:1.6;letter-spacing:-.8px;font-weight:500;margin:0 0 20px}section p{font-size:12px;color:var(--muted);line-height:2}strong{color:var(--ink);font-weight:500}.journey{display:flex;flex-wrap:wrap;gap:15px;align-items:center;margin-top:28px;font-size:11px}.journey b{font-weight:400;color:var(--muted)}.badge{display:inline-block;color:var(--blue);background:var(--tint);padding:5px 12px;border-radius:4px;font-size:10px}.interests{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.interests article{border-right:1px solid var(--line);padding-right:16px}.interests article:last-child{border:0}.symbol{display:block;color:var(--blue);font-size:26px;line-height:1;margin-bottom:20px}article>small{font-size:8px;letter-spacing:1.7px;color:var(--muted)}article h3{font-size:16px;font-weight:500;margin:6px 0 10px;letter-spacing:-.4px}article p{font-size:11px;line-height:1.9;margin:0}.learning{display:grid;grid-template-columns:1fr 1fr;gap:20px}.learning article{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:22px}.learning .badge,.pending{display:inline-block;margin-top:23px;font-size:10px;border-radius:4px;padding:3px 9px}.pending{border:1px dashed var(--line);color:var(--muted)}.activity-intro{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}.activity-intro p{margin:0}.activity-intro a{font-size:10px;color:var(--blue)}.stats{display:block;border:1px solid var(--line);border-radius:8px;overflow:hidden;padding:10px}.stats img{display:block;width:100%;height:auto;min-height:90px}.contact-details{display:flex;gap:28px;margin-top:24px;font-size:11px}.contact-details small{color:var(--muted);font-size:10px;margin-left:10px}footer{border-top:1px solid var(--line);padding:23px 0 30px;display:flex;justify-content:space-between;gap:12px;font-size:9px;color:var(--muted)}
+@media(min-width:1440px){body{background:var(--sidebar)}main{background:var(--bg)}}
+@media(prefers-color-scheme:dark){:root{--bg:#101722;--surface:#172130;--ink:#e3ebfa;--muted:#9aa9be;--line:#283346;--blue:#81aaff;--tint:#1a2b48;--sidebar:#0d131d}.avatar{background:#223a61;color:#e3ebfa}.button{background:#376dde;color:#fff}}
+@media(max-width:1000px){.layout{grid-template-columns:210px minmax(0,1fr)}.sidebar{padding:28px 25px}main{padding:0 35px}h1{font-size:56px}.interests{gap:12px}.interests h3{font-size:14px}}
+@media(max-width:700px){.layout{display:block}.sidebar{position:static;height:auto;min-height:0;flex-direction:row;align-items:center;justify-content:space-between;padding:20px 24px;border-right:0;border-bottom:1px solid var(--line)}.wordmark{font-size:30px}.identity{margin:0}.identity h2{font-size:16px;margin:0}.avatar,.identity p,.cohort,nav,.sidebar-note{display:none}.github{margin:0;font-size:11px}main{padding:0 24px}.topbar{height:58px;font-size:8px;letter-spacing:1px}.status{font-size:9px}.hero{padding-top:45px}h1{font-size:clamp(39px,9.2vw,60px);letter-spacing:-2.2px}.hero .description{font-size:13px}.hero-bottom{margin-top:40px}section{padding:28px 0 34px}.heading{gap:9px;margin-bottom:23px}.heading h2{font-size:17px}.heading>small{font-size:9px}.statement{font-size:22px}.desktop{display:none}.interests{grid-template-columns:1fr;gap:0}.interests article{position:relative;border-right:0;border-bottom:1px solid var(--line);padding:18px 0 18px 48px}.symbol{position:absolute;left:3px;top:24px;font-size:24px}.interests h3{font-size:17px;margin:2px 0 6px}.learning{grid-template-columns:1fr;gap:12px}.learning article{padding:20px}.journey{gap:10px;font-size:10px}.activity-intro{align-items:flex-start}.activity-intro p{font-size:11px}footer{flex-wrap:wrap;font-size:8px}footer span:nth-child(2){display:none}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
