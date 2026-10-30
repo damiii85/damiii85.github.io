@@ -22,7 +22,17 @@ GitHub 프로필 적용: damiii85/damiii85 공개 저장소의 README.md로 사�
 ## About Me
 
 경영학과 비즈니스 데이터 분석을 배경으로, **SSAFY 16기**에서 개발 역량을 확장하고 있습니다.
-비즈니스 문제를 이해하는 시각에 데이터와 AI 기술을 더해, 실질적인 해결책을 만드는 개발자로 성장하고 있습니다.
+비즈니스 문제를 이해하는 시각에 데이터와 AI 기술을 더해, 서비스 기획과 구현 경험을 확장하고 있습니다.
+
+## Selected Projects
+
+| Project | Description | Experience |
+| --- | --- | --- |
+| [SPOT CHECK](https://github.com/damiii85/ssafy/tree/main/aiproject2) | 대구 지역 상권정보를 활용한 RAG 입지 분석 서비스 | AI 코딩 도구 활용 및 서비스 결과 검토 |
+| [댓글 증강 시스템](https://github.com/damiii85/ssafy/tree/main/05-pjt) | 댓글 수집·정제·LLM 필터링 및 증강 | SSAFY 팀 프로젝트 |
+| [SOM HUNTERS](https://github.com/damiii85/ssafy/tree/main/everlandproject) | 에버랜드 참여형 멤버십 서비스 | 서비스 기획 및 공모전 본선 진출 |
+
+> 프로젝트에 사용한 기술과 직접 작성한 코드의 범위는 구분하여 소개합니다.
 
 ## Interests
 
@@ -46,7 +56,8 @@ Simple Icons에서 로고 이름과 색상을 확인하고, 실제 사용한 기
 배지 모음: https://github.com/Envoy-VC/awesome-badges
 -->
 
-사용 경험이 있는 기술을 정리하고 있습니다.
+**프로젝트 활용 경험:** Python · Pandas · RAG · Django · React · Vite · Git/GitHub  
+**학습 중:** Python 알고리즘 · Django 웹 구조 · LLM/RAG 개념 · AI 에이전트 설계
 
 ## Currently Learning
 
