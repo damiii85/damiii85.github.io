@@ -5,11 +5,15 @@ GitHub 프로필 적용: damiii85/damiii85 공개 저장소의 README.md로 사�
 
 <div align="center">
 
+![damiii85 프로필 배너](https://capsule-render.vercel.app/api?type=waving&color=0:172554,50:1D4ED8,100:38BDF8&height=220&section=header&text=damiii85&fontSize=56&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=Business%20%C2%B7%20Data%20%C2%B7%20AI&descSize=18&descAlignY=58)
+
 # From Business Insights to AI Solutions.
 
 비즈니스의 문제를 발견하고, 데이터와 기술로 해결책을 만듭니다.
 
-**Business · Data · AI**
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/damiii85)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1D4ED8?style=for-the-badge&logo=githubpages&logoColor=white)](https://damiii85.github.io)
+![SSAFY 16기](https://img.shields.io/badge/SSAFY-16%EA%B8%B0-172554?style=for-the-badge)
 
 </div>
 
@@ -34,7 +38,12 @@ GitHub 프로필 적용: damiii85/damiii85 공개 저장소의 README.md로 사�
 
 <!--
 직접 사용해 본 기술만 추가하세요. 아래 형식의 기술명과 색상을 교체하면 됩니다.
-![기술명](https://img.shields.io/badge/기술명-1D4ED8?style=flat-square)
+Simple Icons에서 로고 이름과 색상을 확인하고, 실제 사용한 기술의 배지만 주석 밖으로 옮기세요.
+예시 (사용 경험을 의미하지 않음):
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+로고 목록: https://simpleicons.org/
+배지 모음: https://github.com/Envoy-VC/awesome-badges
 -->
 
 사용 경험이 있는 기술을 정리하고 있습니다.
@@ -50,6 +59,10 @@ SSAFY 교육 과정에서 개발 역량을 쌓고 있습니다.
 
 ## GitHub Stats
 
+<div align="center">
+
+[![damiii85의 GitHub 통계](https://github-readme-stats.vercel.app/api?username=damiii85&show_icons=true&hide_border=true&title_color=1D4ED8&icon_color=2563EB&text_color=64748B&bg_color=00000000&hide_rank=true)](https://github.com/damiii85?tab=overview)
+
 <a href="https://github.com/damiii85?tab=overview">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=damiii85&amp;theme=github_dark">
@@ -58,9 +71,19 @@ SSAFY 교육 과정에서 개발 역량을 쌓고 있습니다.
   </picture>
 </a>
 
+</div>
+
 [View GitHub Activity →](https://github.com/damiii85?tab=overview)
 
 <!-- 통계 카드는 외부 서비스에서 생성합니다. 서비스 상태에 따라 표시가 지연될 수 있습니다. -->
+
+<!--
+Algorithm / 개발 역량 카드 추가 안내
+백준·LeetCode 아이디와 사용하려는 codemaru 서비스의 정확한 주소를 확인한 뒤,
+해당 서비스가 발급하는 공개 카드 URL을 아래 형식으로 추가하세요.
+GitHub 아이디와 알고리즘 사이트 아이디가 같다고 가정하지 않습니다.
+[![알고리즘 학습 기록](발급받은-카드-이미지-URL)](공개-프로필-URL)
+-->
 
 ## Contact
 
@@ -71,3 +94,5 @@ SSAFY 교육 과정에서 개발 역량을 쌓고 있습니다.
 -->
 
 블로그와 이메일은 준비 중입니다.
+
+![파도 모양 푸터](https://capsule-render.vercel.app/api?type=waving&color=0:172554,50:1D4ED8,100:38BDF8&height=100&section=footer)
